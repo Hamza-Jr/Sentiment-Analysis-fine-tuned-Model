@@ -11,7 +11,8 @@ It is designed to classify text as either **positive** or **negative** sentiment
 - **Trained on:** IMDB dataset (labeled dataset for sentiment analysis)  
 - **Library used:** `transformers`, `peft`  
 - **License:** Apache 2.0  
-- **Fine-tuned from:** `distilbert-base-uncased`  
+- **Fine-tuned from:** `distilbert-base-uncased`
+- - **Hugging Face Repository:** [Jr0hamza/sentiment-analysis-model](https://huggingface.co/Jr0hamza/sentiment-analysis-model)  
 
 ## **Performance: Accuracy Comparison**
 
