@@ -6,13 +6,23 @@
 This model is a **fine-tuned version of `distilbert-base-uncased`** for **binary sentiment analysis**.  
 It is designed to classify text as either **positive** or **negative** sentiment.
 
+## **project Description**
+This project fine-tunes a binary sentiment analysis model using `distilbert-base-uncased`. The model classifies text as either positive or negative. The accuracy improves from 47.90% to 87.50% after fine-tuning. The model is deployed on Hugging Face Spaces with Gradio to provide a user-friendly interface for real-time sentiment classification.
+
 - **Developed by:** HAMZA EL JIRARI  
 - **Model type:** Transformer-based sentiment classifier  
 - **Trained on:** IMDB dataset (labeled dataset for sentiment analysis)  
 - **Library used:** `transformers`, `peft`  
 - **License:** Apache 2.0  
 - **Fine-tuned from:** `distilbert-base-uncased`
-- - **Hugging Face Repository:** [Jr0hamza/sentiment-analysis-model](https://huggingface.co/Jr0hamza/sentiment-analysis-model)  
+- **Hugging Face Repository:** [Jr0hamza/sentiment-analysis-model](https://huggingface.co/Jr0hamza/sentiment-analysis-model)
+ 
+## **Features**
+
+- Fine-tuned DistilBERT model for sentiment classification
+- Hugging Face Transformers for efficient deep learning inference
+- Gradio UI for easy model testing and interaction
+- Deployment on Hugging Face Spaces for public accessibility
 
 ## **Performance: Accuracy Comparison**
 
@@ -36,7 +46,25 @@ The fine-tuning process significantly improved accuracy from **47.90% to 87.50%*
 - The model may not perform well on texts with sarcasm, irony, or complex emotions  
 - Potential biases due to the dataset used for training  
 
+
+
+
 ## **How to Get Started with the Model**
+
+
+### **On Hugging Face Spaces**
+- **Visit the Hugging Face Space:** [Jr0hamza/sentiment-analysis-model](https://huggingface.co/spaces/Jr0hamza/sentiment_analysis_app)
+-Visit the Hugging Face Space  
+-Enter any text in the input field.
+-Click Submit to receive the sentiment classification.
+-The result will be displayed as either Positive or Negative.
+
+- **Example testing:** 
+
+![Image](image/Test.png)
+
+
+### **Locally**
 
 Use the following Python code to classify text using the fine-tuned model:
 
