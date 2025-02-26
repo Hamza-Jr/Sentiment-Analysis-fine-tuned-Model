@@ -20,8 +20,11 @@ This project fine-tunes a binary sentiment analysis model using `distilbert-base
 ## **Features**
 
 - Fine-tuned DistilBERT model for sentiment classification
+  
 - Hugging Face Transformers for efficient deep learning inference
+  
 - Gradio UI for easy model testing and interaction
+  
 - Deployment on Hugging Face Spaces for public accessibility
 
 ## **Performance: Accuracy Comparison**
@@ -53,10 +56,12 @@ The fine-tuning process significantly improved accuracy from **47.90% to 87.50%*
 
 
 ### **On Hugging Face Spaces**
-- **Visit the Hugging Face Space:** [Jr0hamza/sentiment-analysis-model](https://huggingface.co/spaces/Jr0hamza/sentiment_analysis_app)
--Visit the Hugging Face Space  
+-Visit the Hugging Face Space: [Jr0hamza/sentiment-analysis-model](https://huggingface.co/spaces/Jr0hamza/sentiment_analysis_app) 
+
 -Enter any text in the input field.
+
 -Click Submit to receive the sentiment classification.
+
 -The result will be displayed as either Positive or Negative.
 
 - **Example testing:** 
